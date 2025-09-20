@@ -1,0 +1,34 @@
+{
+    "name": "bincom-ai-social-automation",
+    "version": "1.0.0",
+    "description": "BINCOM AI-powered social media automation for Nigerian businesses",
+    "main": "professional-demo-server.js",
+    "scripts": {
+        "start": "node professional-demo-server.js",
+        "dev": "node professional-demo-server.js",
+        "setup": "npm install"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.24.3",
+        "@google/generative-ai": "^0.17.1",
+        "axios": "^1.7.7",
+        "dotenv": "^16.4.5",
+        "express": "^5.1.0",
+        "multer": "^2.0.2",
+        "n8n": "^1.111.0",
+        "node-cron": "^4.2.1"
+    },
+    "keywords": [
+        "nigeria",
+        "business",
+        "automation",
+        "ai",
+        "social-media",
+        "claude",
+        "gemini",
+        "bincom"
+    ]
+}
